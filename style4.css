@@ -1,0 +1,152 @@
+.container {
+    display: flex;
+    align-content: space-around;
+    height: 300px;
+    border: 2px solid black;
+    flex-wrap: wrap;
+}
+.item_block {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.item_inline {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.item_flex {
+    display: flex;
+    flex: 0 0 30%;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 20px;
+    height: 200px;
+  }
+
+  .flex-item {
+    background-color: lightgreen;
+    padding: 10px;
+    border: 1px solid green;
+  }
+
+  .alignment-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;    
+    align-items: center;        
+    align-content: space-around;
+    height: 300px;              
+    border: 2px solid black;
+    background-color: wheat;
+  }
+  
+  .alignment-item {
+    background-color: lightcoral;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    text-align: center;
+  }
+
+  .flex-container_task5 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-around;
+  }
+  
+  .flex-item_task5 {
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+  }
+
+  .flex-item_task5:nth-child(1) {
+    flex-grow: 1;       
+    flex-shrink: 1;
+    flex-basis: 100px;     
+  }
+  
+  .flex-item_task5:nth-child(2) {
+    flex: 2 1 150px;     
+  }
+  
+  .flex-item_task5:nth-child(3) {
+    flex-grow: 0;       
+    flex-shrink: 2;    
+    flex-basis: 200px;  
+  }
+
+  .flex-container_task6 {
+    display: flex;
+    border: 2px solid black;
+    justify-content: space-between; 
+    width: 100%;
+  }
+  
+  .flex-item {
+    padding: 20px;
+    text-align: center;
+    background-color: lightcoral;
+    margin: 5px;
+  }
+  
+  .first-item {
+    flex: 0 0 50%; 
+  }
+  
+  .second-item {
+    flex: 1; 
+  }
+  
+  .third-item {
+    flex: 0 0 100px; 
+  }
+
+  .flex-container_task7 {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 60px; 
+    background-color: grey; 
+    border-radius: 5px; 
+  }
+
+  .flex-container_task7 a:hover {
+    background-color: papayawhip; 
+  }
+
+  .gallery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+    background-color: whitesmoke;
+  }
+
+  .card {
+    flex: 1 1 30%; 
+    background-color: white;
+    border: 1px solid wheat;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+  }
