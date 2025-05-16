@@ -1,0 +1,559 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    color: white;
+    background-color: #141414;
+    background: #121212;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    padding: 40px 50px 10px 50px;
+    background-color: #141414;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 33px;
+}
+
+.menu {
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.menu a:hover {
+    color: rgba(17, 1141, 168, 1)
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.image {
+    width: 650px;
+    height: 873.44px;
+}
+
+.content {
+    max-width: 500px;
+}
+
+.content h2 {
+    font-size: 70px;
+    font-weight: 400;
+    color: white;
+    line-height: 88px;
+    margin-top: 300px;
+}
+
+.content h2 span{
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.platforms {
+    margin-top: 20px;
+}
+
+.icons {
+    width: 32px;
+    height: 32px;
+}
+
+body {
+  background-color: #121212;
+  font-family: Arial, sans-serif;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.episodes {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.view-all {
+  background-color: #3EB1C8;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.episode-card {
+  background-color: #1F1F1F;
+  border-radius: 16px;
+  overflow: hidden;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.episode-card.large {
+  border: 2px solid #E940FF;
+}
+
+.episode-card img {
+  width: 40%;
+  object-fit: cover;
+}
+
+.info {
+  padding: 20px;
+  flex: 1;
+}
+
+.tag {
+  background-color: #333;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-right: 10px;
+  display: inline-block;
+}
+
+.episode-number {
+  color: #3EB1C8;
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+p {
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.5;
+}
+
+.details {
+  margin-top: 15px;
+  background-color: #3EB1C8;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+  
+  .episodes {
+    max-width: 1000px;
+    margin: 40px;
+    padding: 0 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .view-all {
+    background-color: #3EB1C8;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+  }
+  
+  .episode_card{
+    background-color: #1F1F1F;
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 30px;
+  }
+  
+  
+  .info {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  .tag {
+    background-color: #333;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .episode-number {
+    color: #3EB1C8;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin: 0 0 10px;
+  }
+  
+  p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.5;
+  }
+  
+  .details {
+    margin-top: 15px;
+    background-color: #3EB1C8;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+  }
+
+  .episode-card img {
+    width: 40%;
+    object-fit: cover;
+  }
+
+  .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+.left {
+  max-width: 400px;
+  margin-right: 40px;
+}
+
+.circle {
+  background: #2f9cdb;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.circle img {
+  width: 24px;
+  height: 24px;
+}
+
+.small-text {
+  color: #2f9cdb;
+  font-size: 14px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.right img {
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .left {
+    max-width: 400px;
+    margin-right: 40px;
+  }
+  
+  .circle {
+    background: #2f9cdb;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+  }
+  
+  .circle img {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .small-text {
+    color: #2f9cdb;
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 16px;
+   
+  }
+  
+  .right img {
+    width: 300px;
+    border-radius: 10px;
+  }
+
+  label {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 6px;
+  }
+
+
+
+
+
+  .container_3p {
+    background-color: #000;
+    padding: 60px;
+    border-radius: 30px;
+    width: 80%;
+    max-width: 1000px;
+    margin: 100px auto;
+    position: relative;
+  }
+  
+
+  .form-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  
+
+  .text-block {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  form {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    min-width: 250px;
+  }
+  
+  .small-title {
+    color: #72c9e1;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .main-title {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 0 20px;
+  }
+  
+  label {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    padding: 18px;
+    font-size: 18px;
+    background-color: #1c1c1c;
+    color: white;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 120px;
+    padding: 12px;
+    background-color: #5ab0cc;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #4297b4;
+  }
+  
+  .decor {
+    position: absolute;
+    bottom: -40px;
+    left: -40px;
+    width: 100px;
+  }
+
+
+
+
+
+
+
+
+  .reviews-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #121212;
+  }
+  
+  .review-card {
+    background-color: #111;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 180px;
+    background-color: black;
+    
+  }
+  
+  .stars {
+    margin-bottom: 10px;
+  }
+  
+ 
+  
+  .text {
+    font-size: 20px;
+    line-height: 1.4;
+    margin: 0 0 12px;
+  }
+  
+  .author {
+    font-size: 16px;
+    color: #a0a0a0;
+    margin-top: auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .page-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: #111;
+  }
+  
+  .section_4 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 10px;
+  }
+  
+  .logo-section .logo {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  
+ 
+  
+  .platforms {
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .section a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+   
+  }
+  
+  .section a:hover {
+    color: #888;
+  }
