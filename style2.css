@@ -557,3 +557,9 @@ p {
   .section a:hover {
     color: #888;
   }
+
+
+  .container_new {
+    width: 1200px;        
+    margin: 0 auto;       
+  }
